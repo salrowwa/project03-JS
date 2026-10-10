@@ -1,0 +1,31 @@
+div
+{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-left: 450px;
+    padding-top:20px;
+
+}
+h1
+{
+    padding-left: 550px;
+    padding-top: 125px;
+}
+
+button
+{
+    background-color: aqua;
+    color: black;
+    width: 40px;
+    height: 33px;
+    font-weight: bold;
+    border-color: black;
+    font-size: 12px;
+}
+
+p
+{
+    font-weight: bold;
+    font-size: 50px;
+}
