@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#e66465, #9198e5, #FFFFFF);
+    background: linear-gradient( #9198e5 20%, #FFFFFF 80%);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -14,9 +14,11 @@ body {
     border-color: aliceblue;
     background-color: aliceblue;
     margin-top: 20px;
-    margin-left: 430px;
+    margin-left: 700px;
     border-radius: 3%;
     gap: 10px;
+    position: relative;
+    overflow-y: auto;
 }
 
 .supdiv
@@ -28,7 +30,7 @@ body {
     border-style: solid;
     border-color: aliceblue;
     background-color: aliceblue;
-    margin-left: 430px;
+    margin-left: 700px;
     margin-top: 30px;
     padding-left: 120px;
     box-sizing: border-box;
@@ -41,9 +43,11 @@ button
     border-style: none;
     background: linear-gradient(#e66465, #9198e5);
     border-radius: 50%;
-    width: 45px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     opacity: 0.7;
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 
@@ -56,13 +60,27 @@ input
 
 h2
 {
-    margin-left: 600px;
+    margin-left: 890px;
     margin-top: 100px;
     color: azure;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 
-.but
+span
 {
-
+        background: linear-gradient(#9198e5, #e66465);
+        border-style: non;
+        border-radius: 50%;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 50px;
+        height: 40px;
+        align-content: center;
+        padding-left: 25px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        font-weight: bold;
+        opacity: .9;
 }
